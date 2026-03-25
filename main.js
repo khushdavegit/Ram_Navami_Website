@@ -1,8 +1,4 @@
-import './style.css';
-import gsap from 'gsap';
-import ScrollTrigger from 'gsap/ScrollTrigger';
-import Lenis from '@studio-freight/lenis';
-import * as THREE from 'three';
+// Using global window CDNs for GSAP, ScrollTrigger, Lenis, THREE.
 
 gsap.registerPlugin(ScrollTrigger);
 
